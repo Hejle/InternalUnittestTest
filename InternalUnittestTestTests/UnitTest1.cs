@@ -1,10 +1,11 @@
+using InternalUnittestTest;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using InternalUnittestTest;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 [assembly: TestDataSourceDiscovery(TestDataSourceDiscoveryOption.DuringExecution)]
+
 namespace InternalUnittestTestTests
 {
     [TestClass]
@@ -37,4 +38,3 @@ namespace InternalUnittestTestTests
         }
     }
 }
-

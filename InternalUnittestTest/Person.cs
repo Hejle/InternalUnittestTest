@@ -13,4 +13,3 @@ namespace InternalUnittestTest
         internal int InternalAge { get; set; }
     }
 }
-
